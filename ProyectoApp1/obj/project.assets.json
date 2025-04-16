@@ -33161,20 +33161,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\franc\\.nuget\\packages\\": {}
+    "C:\\Users\\javie\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\APP-MOVILES\\ProyectoApp1\\ProyectoApp1.csproj",
+      "projectUniqueName": "C:\\Users\\javie\\OneDrive\\Escritorio\\APP-MOVILES\\ProyectoApp1\\ProyectoApp1.csproj",
       "projectName": "ProyectoApp1",
-      "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\APP-MOVILES\\ProyectoApp1\\ProyectoApp1.csproj",
-      "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\APP-MOVILES\\ProyectoApp1\\obj\\",
+      "projectPath": "C:\\Users\\javie\\OneDrive\\Escritorio\\APP-MOVILES\\ProyectoApp1\\ProyectoApp1.csproj",
+      "packagesPath": "C:\\Users\\javie\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\javie\\OneDrive\\Escritorio\\APP-MOVILES\\ProyectoApp1\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\javie\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-android",
