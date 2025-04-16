@@ -33166,11 +33166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\APP-MOVILES\\ProyectoApp1\\ProyectoApp1.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\APPSM\\ProyectoApp1\\ProyectoApp1.csproj",
       "projectName": "ProyectoApp1",
-      "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\APP-MOVILES\\ProyectoApp1\\ProyectoApp1.csproj",
+      "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\APPSM\\ProyectoApp1\\ProyectoApp1.csproj",
       "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\APP-MOVILES\\ProyectoApp1\\obj\\",
+      "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\APPSM\\ProyectoApp1\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
