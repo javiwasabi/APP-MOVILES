@@ -11,10 +11,11 @@
     </ContentPage.Resources>
 
     <ScrollView>
+        <!-- ===== CORREGIDO: Botón extra eliminado, Grid es el único hijo ===== -->
+        <!-- <Button BackgroundColor="StaticResource Secondary}"/>  <- Eliminado -->
 
-
-        <Grid x:Name="Container" BackgroundColor ="Black"> 
-             <Frame Margin ="10" VerticalOptions ="Center" BackgroundColor="WhiteSmoke">
+        <Grid x:Name="Container" BackgroundColor ="Black"> <!-- Cambiado a Black para que se vea el Frame -->
+             <Frame Margin ="10" VerticalOptions ="Center" BackgroundColor="WhiteSmoke"> <!-- Añadido color de fondo al Frame -->
                 <VerticalStackLayout Spacing="15" VerticalOptions="Center">
                     <Label
                         FontAttributes="Bold"
@@ -23,10 +24,10 @@
                         Text="Color Maker"/>
                     <Label Text="Red Value"/>
                     <Slider x:Name="sldRed"
-                        ThumbColor="{StaticResource Primary}"
+                        ThumbColor="{StaticResource Primary}" <!-- Usar {} para StaticResource -->
                         MaximumTrackColor="{StaticResource Tertiary}"
                         MinimumTrackColor="{StaticResource Secondary}"
-                        Minimum="0" Maximum="255"/> 
+                        Minimum="0" Maximum="255"/> <!-- Añadido Min/Max para colores -->
                          <Label Text="Green Value"/>
                     <Slider x:Name="sldGreen"
                         ThumbColor="{StaticResource Primary}"
@@ -39,15 +40,15 @@
                         MaximumTrackColor="{StaticResource Tertiary}"
                         MinimumTrackColor="{StaticResource Secondary}"
                         Minimum="0" Maximum="255"/>
-                    <Frame CornerRadius="25" HorizontalOptions="Center" Padding="10" BorderColor="LightGray"> 
-                        <HorizontalStackLayout Spacing="10">
+                    <Frame CornerRadius="25" HorizontalOptions="Center" Padding="10" BorderColor="LightGray"> <!-- Añadido Padding/Border -->
+                        <HorizontalStackLayout Spacing="10"> <!-- Añadido Spacing -->
                             <Label x:Name="lblHex"
                                 HorizontalTextAlignment="End"
                                 Text="Hex Value: #000000"
                                 VerticalOptions="Center" />
                             <ImageButton
                                 HeightRequest="25"
-                                Source="copy.svg"
+                                Source="copy.svg" 
                                 VerticalOptions="Center"
                                 WidthRequest="25"/>
                         </HorizontalStackLayout>
